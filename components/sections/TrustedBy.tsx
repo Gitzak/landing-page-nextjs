@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from "react";
 import {
-    Carousel,
-    CarouselApi,
-    CarouselContent,
-    CarouselItem,
+  Carousel,
+  CarouselApi,
+  CarouselContent,
+  CarouselItem,
 } from "@/components/ui/carousel";
 
 export const TrustedBy = () => {
@@ -29,7 +29,7 @@ export const TrustedBy = () => {
   }, [api, current]);
 
   return (
-    <section id="trusted-by" className="w-full py-10 mt-5 px-3 bg-muted">
+    <section id="trusted-by" className="w-full py-10 mt-5 px-3 bg-muted scroll-mt-28">
       <div className="container mx-auto">
         <div className="flex flex-col  gap-10">
           <h2 className="text-xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">

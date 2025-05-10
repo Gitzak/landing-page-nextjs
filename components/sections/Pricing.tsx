@@ -10,7 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 
 export const Pricing = () => (
-  <section id="pricing" className="w-full py-20 px-3 bg-background">
+  <section id="pricing" className="w-full py-20 px-3 bg-background scroll-mt-28">
     <div className="container mx-auto">
       <div className="flex text-center justify-center items-center gap-4 flex-col">
         <Badge>Pricing</Badge>

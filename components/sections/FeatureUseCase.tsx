@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/carousel";
 
 export const FeatureUseCase = () => (
-  <section id="feature_use_case" className="w-full py-20 px-3">
+  <section id="use-cases" className="w-full py-20 px-3 scroll-mt-28">
     <div className="container mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-10">
         <div className="flex gap-4 flex-col items-center text-center lg:items-start lg:text-left">

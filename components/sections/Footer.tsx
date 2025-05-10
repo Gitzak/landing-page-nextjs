@@ -28,7 +28,10 @@ export const Footer = () => {
   ];
 
   return (
-    <footer id="footer" className="w-full pt-20 lg:pt-32 pb-6 bg-green-950 text-background">
+    <footer
+      id="footer"
+      className="w-full pt-20 lg:pt-32 pb-6 bg-gray-900 text-white"
+    >
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-10 items-start">
           {/* Left Section */}
@@ -37,12 +40,12 @@ export const Footer = () => {
               <h2 className="text-3xl md:text-5xl font-semibold tracking-tight">
                 Moroccan Saas Ai
               </h2>
-              <p className="text-lg max-w-md text-background/75">
+              <p className="text-lg max-w-md text-white/75">
                 Built to empower Moroccan businesses with smart automation and
                 AI-first tools — simple, scalable, and ready to go.
               </p>
             </div>
-            <div className="flex flex-col text-sm text-background/75 gap-1">
+            <div className="flex flex-col text-sm text-white/75 gap-1">
               <p>📍 12 Avenue des Startups, Technopark</p>
               <p>Casablanca, Morocco</p>
               <p>📬 hello@moroccansaas.ai</p>
@@ -58,7 +61,7 @@ export const Footer = () => {
                   <Link
                     key={subItem.title}
                     href={subItem.href}
-                    className="text-background/75 hover:underline text-sm"
+                    className="text-white/75 hover:underline text-sm"
                   >
                     {subItem.title}
                   </Link>
@@ -69,7 +72,7 @@ export const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 border-t pt-6 text-sm text-background/50 text-center">
+        <div className="mt-12 border-t border-white/20 pt-6 text-sm text-white/50 text-center">
           © {new Date().getFullYear()} Moroccan Saas Ai. All rights reserved.
         </div>
       </div>

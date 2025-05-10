@@ -2,7 +2,6 @@ import { CallToAction } from "@/components/sections/CallToAction";
 import { Contact } from "@/components/sections/Contact";
 import { Features } from "@/components/sections/Features";
 import { FeatureUseCase } from "@/components/sections/FeatureUseCase";
-import { Footer } from "@/components/sections/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { Pricing } from "@/components/sections/Pricing";
 import { Stats } from "@/components/sections/Stats";
@@ -21,7 +20,6 @@ export default function Home() {
       <CallToAction />
       <Pricing />
       <Contact />
-      <Footer />
    </div>
   );
 }

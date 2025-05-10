@@ -19,7 +19,7 @@ export const Contact = () => {
   const [date, setDate] = useState<Date | undefined>(new Date());
 
   return (
-    <section id="contact" className="w-full py-20 lg:py-40">
+    <section id="contact" className="w-full py-20 lg:py-40 scroll-mt-28">
       <div className="container max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-10">
           {/* LEFT */}

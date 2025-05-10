@@ -1,7 +1,7 @@
 import { MoveUpRight } from "lucide-react";
 
 export const Stats = () => (
-  <section id="stats" className="w-full py-20 px-3 bg-muted">
+  <section id="stats" className="w-full py-20 px-3 bg-muted scroll-mt-28">
     <div className="container mx-auto">
       <div className="flex flex-col items-center mb-16 text-center">
         <p className="text-sm uppercase text-primary font-medium tracking-wide mb-2">
