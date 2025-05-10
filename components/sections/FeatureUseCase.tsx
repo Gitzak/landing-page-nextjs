@@ -1,14 +1,14 @@
 import { Badge } from "@/components/ui/badge";
 import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 
 export const FeatureUseCase = () => (
-  <div className="w-full py-20 px-3">
+  <section id="feature_use_case" className="w-full py-20 px-3">
     <div className="container mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-10">
         <div className="flex gap-4 flex-col items-center text-center lg:items-start lg:text-left">
@@ -51,5 +51,5 @@ export const FeatureUseCase = () => (
         </div>
       </div>
     </div>
-  </div>
+  </section>
 );

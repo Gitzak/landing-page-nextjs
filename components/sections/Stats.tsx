@@ -1,7 +1,7 @@
 import { MoveUpRight } from "lucide-react";
 
 export const Stats = () => (
-  <div className="w-full py-20 px-3 bg-blue-50">
+  <section id="stats" className="w-full py-20 px-3 bg-muted">
     <div className="container mx-auto">
       <div className="flex flex-col items-center mb-16 text-center">
         <p className="text-sm uppercase text-primary font-medium tracking-wide mb-2">
@@ -46,5 +46,5 @@ export const Stats = () => (
         </div>
       </div>
     </div>
-  </div>
+  </section>
 );

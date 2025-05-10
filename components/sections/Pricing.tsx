@@ -1,16 +1,16 @@
 import { Check, MoveRight, PhoneCall } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-    CardTitle,
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 export const Pricing = () => (
-  <div className="w-full py-20 px-3 bg-background">
+  <section id="pricing" className="w-full py-20 px-3 bg-background">
     <div className="container mx-auto">
       <div className="flex text-center justify-center items-center gap-4 flex-col">
         <Badge>Pricing</Badge>
@@ -67,7 +67,7 @@ export const Pricing = () => (
           </Card>
 
           {/* Growth Plan */}
-          <Card className="w-full shadow-2xl rounded-md border-primary border-2">
+          <Card className="w-full shadow-2xl shadow-green-200 rounded-md border-2">
             <CardHeader>
               <CardTitle>
                 <span className="flex flex-row gap-4 items-center font-medium">
@@ -152,5 +152,5 @@ export const Pricing = () => (
         </div>
       </div>
     </div>
-  </div>
+  </section>
 );

@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
 export const CallToAction = () => (
-  <div className="w-full py-20 px-3 bg-muted">
+  <section id="call_to_action" className="w-full py-20 px-3 bg-muted">
     <div className="container mx-auto">
       <div className="flex flex-col text-center py-14 gap-4 items-center">
         <div>
@@ -29,5 +29,5 @@ export const CallToAction = () => (
         </div>
       </div>
     </div>
-  </div>
+  </section>
 );

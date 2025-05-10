@@ -29,7 +29,7 @@ export const TrustedBy = () => {
   }, [api, current]);
 
   return (
-    <section id="trusted-by" className="w-full py-10 mt-5 px-3 bg-blue-50">
+    <section id="trusted-by" className="w-full py-10 mt-5 px-3 bg-muted">
       <div className="container mx-auto">
         <div className="flex flex-col  gap-10">
           <h2 className="text-xl md:text-5xl tracking-tighter lg:max-w-xl font-regular text-left">

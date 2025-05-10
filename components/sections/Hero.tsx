@@ -37,7 +37,7 @@ export const Hero = () => {
   }, []);
 
   return (
-    <div className="w-full mt-10">
+    <section id="hero" className="w-full mt-10">
       <div className="container mx-auto">
         <div className="flex gap-8 py-20 lg:py-40 items-center justify-center flex-col">
           <div>
@@ -47,7 +47,7 @@ export const Hero = () => {
           </div>
           <div className="flex gap-4 flex-col">
             <h1 className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
-              <span className="text-blue-600">
+              <span className="text-green-600">
                 Make your SaaS business
               </span>
               <span className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1">
@@ -105,6 +105,6 @@ export const Hero = () => {
           </a>
         )}
       </div>
-    </div>
+    </section>
   );
 };

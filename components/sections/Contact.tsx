@@ -6,9 +6,9 @@ import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import { useState } from "react";
 import {
-    Popover,
-    PopoverContent,
-    PopoverTrigger,
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
 } from "@/components/ui/popover";
 import { cn } from "@/lib/utils";
 import { format } from "date-fns";
@@ -19,7 +19,7 @@ export const Contact = () => {
   const [date, setDate] = useState<Date | undefined>(new Date());
 
   return (
-    <div className="w-full py-20 lg:py-40">
+    <section id="contact" className="w-full py-20 lg:py-40">
       <div className="container max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-10">
           {/* LEFT */}
@@ -125,6 +125,6 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

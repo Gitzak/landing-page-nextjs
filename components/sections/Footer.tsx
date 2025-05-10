@@ -28,7 +28,7 @@ export const Footer = () => {
   ];
 
   return (
-    <div className="w-full py-20 lg:py-32 bg-foreground text-background">
+    <footer id="footer" className="w-full pt-20 lg:pt-32 pb-6 bg-green-950 text-background">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-10 items-start">
           {/* Left Section */}
@@ -73,6 +73,6 @@ export const Footer = () => {
           © {new Date().getFullYear()} Moroccan Saas Ai. All rights reserved.
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
